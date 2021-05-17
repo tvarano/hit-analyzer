@@ -14373,45 +14373,6 @@ Data Link: https://data.world/kcmillersean/billboard-hot-100-1958-2017 </p>
 </div>
 </div>
 
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[20]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">columns</span><span class="o">.</span><span class="n">values</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[20]:</div>
-
-
-
-
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>array([&#39;week&#39;, &#39;week_position&#39;, &#39;song&#39;, &#39;performer&#39;, &#39;songid&#39;, &#39;instance&#39;,
-       &#39;prev_week_position&#39;, &#39;peak_position&#39;, &#39;weeks_on_chart&#39;],
-      dtype=object)</pre>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
@@ -18017,6 +17978,140 @@ z
      </div>
 </div>
 </div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[49]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[49]:</div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>week</th>
+      <th>week_position</th>
+      <th>song</th>
+      <th>performer</th>
+      <th>songid</th>
+      <th>instance</th>
+      <th>prev_week_position</th>
+      <th>weeks_on_chart</th>
+      <th>rel_week</th>
+      <th>jump</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>6984</th>
+      <td>1958-08-02</td>
+      <td>54</td>
+      <td>Nel Blu Dipinto Di Blu (Volaré)</td>
+      <td>Domenico Modugno</td>
+      <td>Nel Blu Dipinto Di Blu (Volaré)Domenico Modugno</td>
+      <td>1.0</td>
+      <td>NaN</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>876</th>
+      <td>1958-08-02</td>
+      <td>6</td>
+      <td>Rebel-'rouser</td>
+      <td>Duane Eddy His Twangy Guitar And The Rebels</td>
+      <td>Rebel-'rouserDuane Eddy His Twangy Guitar And ...</td>
+      <td>1.0</td>
+      <td>NaN</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>538</th>
+      <td>1958-08-02</td>
+      <td>8</td>
+      <td>My True Love</td>
+      <td>Jack Scott</td>
+      <td>My True LoveJack Scott</td>
+      <td>1.0</td>
+      <td>NaN</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>32486</th>
+      <td>1958-08-02</td>
+      <td>84</td>
+      <td>Summertime Blues</td>
+      <td>Eddie Cochran</td>
+      <td>Summertime BluesEddie Cochran</td>
+      <td>1.0</td>
+      <td>NaN</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>821</th>
+      <td>1958-08-02</td>
+      <td>1</td>
+      <td>Poor Little Fool</td>
+      <td>Ricky Nelson</td>
+      <td>Poor Little FoolRicky Nelson</td>
+      <td>1.0</td>
+      <td>NaN</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+
 </div>
 
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
